@@ -1,0 +1,56 @@
+# Modern Calculator
+A sleek, modern web-based calculator built with HTML, CSS, and JavaScript. It features smooth animations, keyboard support, and a responsive design for an enhanced user experience.
+
+## Demo
+You can try the calculator by opening index.html in your web browser.
+
+## Features
+- Basic Operations: Supports addition (+), subtraction (−), multiplication (×), and division (/).
+- Decimal Support: Allows input of decimal numbers.
+- Clear Function: Reset the calculator with the 'C' button or Escape key.
+- Expression Preview: Displays the ongoing calculation expression above the result.
+- Keyboard Support: Use number keys, operators (+, -, *, /), Enter for equals, and '.' for decimal.
+- Animations: Button press effects and result update animations for a polished feel.
+- Responsive Design: Adapts to different screen sizes, including mobile devices.
+- Error Handling: Handles division by zero gracefully (returns 0).
+- Number Formatting: Adds commas for large numbers and uses scientific notation for very large results.
+
+## Installation
+1. Clone or download the repository.
+2. Open index.html in any modern web browser (e.g., Chrome, Firefox, Safari).
+
+No additional dependencies or setup required – it's pure vanilla JavaScript!
+
+## Usage
+- Click number buttons (0-9) to input digits.
+- Click operator buttons (+, −, ×, /) to select operations.
+- Click '=' to compute the result.
+- Click 'C' to clear the display.
+- Click '.' to add a decimal point.
+- Use your keyboard for faster input.
+
+Example: To calculate 5 + 3:
+1. Press 5
+2. Press +
+3. Press 3
+4. Press =
+
+The expression "5 +" will appear, and the result "8" will be displayed.
+
+## Technologies Used
+- HTML5: Structure of the calculator.
+- CSS3: Styling, gradients, animations, and responsive layout.
+- JavaScript (ES6): Logic for calculations, event handling, and DOM manipulation.
+
+## Project Structure
+- index.html: Main HTML file containing the calculator layout.
+- script.js: JavaScript code for calculator functionality.
+- styles.css: CSS styles for design and animations.
+
+## Limitations
+- Does not support advanced operations like percentages, square roots, or parentheses.
+- Limited to basic arithmetic; no memory functions.
+- Handles up to 12-digit numbers before switching to scientific notation.
+
+## License
+This project is open-source and available under the MIT License. Feel free to use, modify, or distribute it.
